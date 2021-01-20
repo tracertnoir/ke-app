@@ -3426,7 +3426,13 @@
       ]
     }
   },
-  { "S": 9, "F": 9, "ReplyExpected": false, "Name": "ABT_S9"
+  { "S": 7, "F": 91, "ReplyExpected": true, "Name": "RTP_S6F11_EVENT_RECIPE",
+    "SecsItem": {
+      "Format": "List",
+      "Items": [
+        { "Format": "ASCII", "Values": "Key:220" }
+      ]
+    }
   },
   { "S": 10, "F": 10, "ReplyExpected": true, "Name": "TRN",
     "SecsItem": {
