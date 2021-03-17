@@ -3605,10 +3605,20 @@
       ]
     }
   },
-  { "S": 7, "F": 91, "ReplyExpected": true, "Name": "RTP_S6F11_EVENT_RECIPE",
+  { "S": 7, "F": 91, "ReplyExpected": true, "Name": "RTP_S6F11_EVENT_RECIPE_P1",
     "SecsItem": {
       "Format": "List",
       "Items": [
+        { "Format": "ASCII", "Values": "01" },
+        { "Format": "ASCII", "Values": "Key:217" }
+      ]
+    }
+  },
+  { "S": 7, "F": 91, "ReplyExpected": true, "Name": "RTP_S6F11_EVENT_RECIPE_P2",
+    "SecsItem": {
+      "Format": "List",
+      "Items": [
+        { "Format": "ASCII", "Values": "02" },
         { "Format": "ASCII", "Values": "Key:217" }
       ]
     }
